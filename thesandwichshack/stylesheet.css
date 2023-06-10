@@ -1,0 +1,148 @@
+body {
+  background: #333333;
+  margin-top: 0px;
+}
+
+header {
+  min-height: 50px;
+  background: #abc957;
+  margin-top: 0px;
+}
+
+h1{
+    width: 308px;
+    height: 126px;
+    margin-right: 1000px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+img{
+
+    width: 181px;
+    height: 132.5px;
+    
+    background: url(logo.png);
+    mix-blend-mode: darken;
+
+
+}
+
+.buttons{
+    border-radius: 12px;
+    background: #95AF4D;
+    border: none;
+    color: #BC4749;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.buttons:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: white;
+  }
+#navcontainer{
+    width:100%;
+    padding-left: 70%;
+}
+
+.navtable{
+ border-spacing: 12px;
+}
+
+.links{
+text-decoration: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+align-items: center;
+text-align: right;
+letter-spacing: 0.2em;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.menuOptions{
+margin-top: 100px;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 10px;
+gap: 10px;
+width: 249px;
+height: 336px;
+left: 0px;
+top: 147.5px;
+
+background: #494949;
+border-radius: 24px;
+line-height: 50px;
+
+}
+
+.foodbutton{
+    background-color: #494949;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+
+    cursor: pointer;
+}
+
+
+
+.foodbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.foodbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.foodbutton:hover span {
+  padding-right: 25px;
+}
+
+.foodbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
