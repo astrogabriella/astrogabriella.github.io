@@ -1,3 +1,6 @@
 [submodule "MindOverColour"]
 	path = MindOverColour
 	url = https://github.com/astrogabriella/mindOverColour.git
+[submodule "UnitWizard"]
+	path = UnitWizard
+	url = https://github.com/astrogabriella/UnitWizard.git
